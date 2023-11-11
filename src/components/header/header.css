@@ -1,0 +1,75 @@
+.menu{
+    
+    background-color: #111111;
+    width:100% ;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    border-bottom: 1px solid green;
+}
+
+
+#logo{
+    margin-right: auto;
+    margin-left: 5%;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#00FF7F;
+ 
+}
+
+
+
+#logo > a:hover {
+    background-color: aqua ;
+    
+
+
+}
+
+
+
+.links{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    justify-content: center;
+    margin-right: 30px;
+    flex-wrap: wrap;
+ 
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 20px;
+   color: #00FF7F;
+   cursor: pointer;
+
+}
+
+.links > a:hover {
+    text-decoration: underline;
+    
+
+
+}
+
+
+@media (max-width: 700px) {
+
+   
+#logo{
+    display: none;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#00FF7F;
+ 
+}
+
+
+}
