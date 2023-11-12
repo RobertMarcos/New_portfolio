@@ -5,7 +5,7 @@ import './header.css'
 function Auto(){
     
      window.scrollTo(0,100);
-
+     
      
 }
 
@@ -27,7 +27,6 @@ return(
          <nav className='links'>    
         <a onClick={Auto}>Home</a>
         <a onClick={Auto2}>Projetos</a>       
-        <a href="sobre.html">sobre</a>
         <a href="sobre.html">Certificados</a>
         </nav>   
             

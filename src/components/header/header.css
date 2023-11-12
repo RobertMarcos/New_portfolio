@@ -4,7 +4,8 @@
     width:100% ;
     height: auto;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     border-bottom: 1px solid green;
 }
@@ -13,10 +14,11 @@
 #logo{
     margin-right: auto;
     margin-left: 5%;
-    margin-top: 15px;
     text-decoration: none;
     font-size: 25px;
     color:#00FF7F;
+    /**/
+   text-align: center;
  
 }
 
@@ -33,7 +35,6 @@
 
 .links{
     display: flex;
-    margin-top: 15px;
     gap: 20px;
     justify-content: center;
     margin-right: 30px;

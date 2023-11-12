@@ -5,18 +5,29 @@
     background-color: #111111;
     
     font-family: 'Inconsolata', monospace;
-    
+  
 
 }
 
+
+
+
 section{
-    
+    position: relative;
     place-items: center;
     align-items: center;
     min-height: 100vh;
 }
 
-
+.Scroll{
+    position: fixed;
+    color: #00FF7F;
+    bottom: 1%;
+    right:  2%;
+    font-size: 50px;
+    cursor: pointer;
+   
+}
 
 .inicio{
     display: flex;
@@ -61,12 +72,12 @@ section{
 .t1{
     grid-area: t1;
     
-    width: 100%;
+    width: 99%;
     border: 1px solid springgreen;
 
     text-align: center;
 
-    background-image: linear-gradient(to top, springgreen,green);
+    background-image: linear-gradient(to top, green,aqua);
     background-clip: text;
     color:black;
     -webkit-background-clip: text;
@@ -74,6 +85,10 @@ section{
     
     font-size: 30px;
 }
+
+
+
+
 
 h3{
     background-image: linear-gradient(to top, green,aqua);
@@ -111,9 +126,26 @@ h3{
  svg{
     color: aqua;
     font-size: 25px;
-    cursor: pointer;
     
 }
+
+svg:hover{
+    color: springgreen;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.socialm > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
 
 
 
@@ -127,50 +159,105 @@ p > strong{
 }
 
 
-/**/
+/*Projetos*/
 
 .cont2{
-    display: grid;
+    display: flex;
     place-items: center;
     align-items: center;
     min-height: 100vh;
-    grid-template-rows: 30%;
-    grid-template-areas: 
-    
-    "t2 t2"
-    "im2 p2"
-    
-    
-    ;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+   
 
    
 }
 
 
 
+.item1{
+    width: 250px;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 30%;
+    border-image:linear-gradient(to top, green,aqua);
+    border-image-slice: 1;
+   
+   }
+   
+   .item-txt{
+       display: flex;
+       padding: 10px;
+       flex-direction: column;
+       color: white;
+       
+   }
 
-.im2{
-    grid-area: im2;
-    background-color: aqua;
-    width: 100%;
-    height: 70%;
-    align-self: self-start;
-}
 
-.t2{
-    grid-area: t2;
-    color: beige;
-    font-size: 25px;
-}
+   .item-txt >p{
+       display: -webkit-box;
+       -webkit-line-clamp: 3;
+       -webkit-box-orient: vertical;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       font-size: 20px;
+       margin: 20px 0 ;
+   }
 
-.p2{
-    grid-area: p2;
-    color: beige;
+
+   .item-txt > span{
+       text-align: center;
+       color: aqua;
+   font-size: 20px;
+   }
+
+
+   .item-img  img{
+       width:100%;
+       height: 100%;
+       object-fit: cover;
+      
+     
+   }
+   span > a {
+    color: aqua;
     font-size: 20px;
-    align-self: self-start;
+    text-decoration: none;
+      
+       
+   }
+ 
+   
+   
+   .cont2 > div:hover{
+       animation: itens 1s infinite;
+      
+      
+   }
+   
+   
+   @keyframes itens {
+       0%{
+           transform: translateY(0);
+       }
+   
+       50%{
+           transform: translateY(-20px);
+       }
+   
+       100%{
+           transform: translateY(0);
+       }
+   }
+
+   /*projeto-end*/
 
 
-}
+
 
 
 
