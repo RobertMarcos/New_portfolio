@@ -1,11 +1,11 @@
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import img0 from '../../components/images/foto.jpeg';
-import img1 from '../../components/images/acerte.png';
-import img2 from '../../components/images/conhome.png';
+import img1 from '../../components/images/rose.png';
+import img2 from '../../components/images/barbeariaA.png';
 import img3 from '../../components/images/conver2.png';
 import img4 from '../../components/images/Batalha_B.png';
-import img5 from '../../components/images/sobre.png';
+import img5 from '../../components/images/robert_programa.png';
 import { Typewriter,useTypewriter,Cursor } from "react-simple-typewriter";
 import './home.css'
 import {FaLinkedinIn,FaGithub,FaMailBulk} from "react-icons/fa";
@@ -87,15 +87,15 @@ function Home(){
 
 
                {/* Box 1*/}
-            <div  class="item1">
+            <div  className="item1">
                 
-                <div class="item-img">
-                    <img src={img1}alt=""/>
+                <div className="item-img">
+                    <img src={img1}alt="Rosas"/>
                 </div>
                 
                     <div class="item-txt">
-                        <span><a href="acerte_o_alvo.html">Acerte o Alvo &#8658;</a></span>
-                        <p>Venha experimentar esse incrivel jogo e leve os seus reflexos ao extremo!!!</p> 
+                        <span><a href="https://one-rose-corte-costura.vercel.app/" target="_black">ONE-ROSE &#8658;</a></span>
+                        <p>Criação de site gratuito como freelancer - One-Rose </p> 
                   
                     </div>
             </div>
@@ -106,12 +106,12 @@ function Home(){
             <div  class="item1">
                 
                 <div class="item-img">
-                    <img src={img2} alt=""/>
+                    <img src={img2} alt="Barbearia"/>
                 </div>
                 
                     <div class="item-txt">
-                        <span><a href="decodificador.html">Decodificador &#8658;</a></span>
-                        <p>Muitas vezes precisamos manter as nossa menssagens em segredo venha conferir esse decodificador feito <strong>expecialmente</strong> para você </p>
+                        <span><a href="https://barbearia-alura-eta-sandy.vercel.app/index.html" target="_blank">Barbearia Alura &#8658;</a></span>
+                        <p> Site feito durante o curso de css e html na Alura  </p>
                     </div>
             </div>
 
@@ -121,12 +121,12 @@ function Home(){
             <div  class="item1">
                 
                 <div class="item-img">
-                    <img src={img3} alt=""/>
+                    <img src={img3} alt="Convertor"/>
                 </div>
                 
                     <div class="item-txt">
                         <span><a href="https://github.com/RobertMarcos/Conversor_de_moeda " target="_blank">Conversor De Moedas &#8658;<a/></a></span>
-                        <p>Precisando converter Real para Dollar ? ou quem sabe para Euro ? venha experimentar esse convertor de moedas</p>
+                        <p>Conversor de moedas simples, Feito em java durante especialização em back-end no programa ONE</p>
                         
                     </div>
             </div>
@@ -136,7 +136,7 @@ function Home(){
             <div  class="item1">
                         
                 <div class="item-img">
-                    <img src={img4} alt=""/>
+                    <img src={img4} alt="Batalha_de_robos"/>
                 </div>
                 
                     <div class="item-txt">
@@ -148,6 +148,13 @@ function Home(){
     
             
  
+            </section>
+
+            <section className="cont3">
+                <div className="img-certs">
+                    <img src={img5} />
+                </div>
+
             </section>
 
 

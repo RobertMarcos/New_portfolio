@@ -1,3 +1,4 @@
+
 import './header.css'
 
 
@@ -11,7 +12,16 @@ function Auto(){
 
 function Auto2(){
     
-    window.scrollTo(0,1000);
+    window.scrollTo(0,800);
+
+    
+}
+
+
+
+function Auto3(){
+    
+    window.scrollTo(0,1500);
 
     
 }
@@ -26,8 +36,11 @@ return(
 
          <nav className='links'>    
         <a onClick={Auto}>Home</a>
-        <a onClick={Auto2}>Projetos</a>       
-        <a href="sobre.html">Certificados</a>
+        <a onClick={Auto2}>Projetos</a>
+        
+      
+
+        <a onClick={Auto3}>Certificados</a>
         </nav>   
             
       

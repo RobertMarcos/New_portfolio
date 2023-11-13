@@ -6,6 +6,7 @@ import { Route,BrowserRouter, Routes} from 'react-router-dom';
 
 
 
+
 function App() {
 return(
 
@@ -14,6 +15,7 @@ return(
 
     <Route path="/" element={<Entrar/>} />
     <Route path="/Home" element={<Home/>} />
+   
 
 
 
