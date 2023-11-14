@@ -45,7 +45,7 @@ section{
     
     "t1 t1"
     "im1 p1"
-    
+    "imghide imghide "
     
     ;
     gap: 20px;
@@ -148,9 +148,6 @@ svg:hover{
 
 
 
-
-
-
 p > strong{
     background-image: linear-gradient(to top, cyan,#00FF7F);
     background-clip: text;
@@ -160,6 +157,16 @@ p > strong{
 
 }
 
+
+.img-hide{
+   display: none;
+   
+}
+
+.img-hide > img{
+    width: 100%;
+    height: 100%;  
+}
 
 /*Projetos*/
 
@@ -426,11 +433,28 @@ h2> a {
         grid-template-areas: 
 
         "t1 t1"
+        "imghide imghide"
         "p1 p1"
+        
         ;
     
        
     }
+
+
+.img-hide{
+    grid-area: imghide;
+    display:flex;
+    align-self: center;
+    width: 250px;
+    height: 200px;
+   
+}
+
+.img-hide > img{
+    width: 100%;
+    height: 100%;
+}
 
     .im1{
         display: none;

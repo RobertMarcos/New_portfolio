@@ -5,8 +5,8 @@ import img1 from '../../components/images/rose.png';
 import img2 from '../../components/images/barbeariaA.png';
 import img3 from '../../components/images/conver2.png';
 import img4 from '../../components/images/Batalha_B.png';
-import img5 from '../../components/images/robert_programa.png';
-import { Typewriter,useTypewriter,Cursor } from "react-simple-typewriter";
+import img5 from '../../components/images/perfil.png'
+import { Typewriter,useTypewriter} from "react-simple-typewriter";
 import './home.css'
 import {FaLinkedinIn,FaGithub,FaMailBulk,FaJsSquare,FaHtml5,FaCss3Alt,FaFigma,
     FaReact,FaJava,FaPython,FaCloudDownloadAlt} from "react-icons/fa";
@@ -18,14 +18,8 @@ import {FaLinkedinIn,FaGithub,FaMailBulk,FaJsSquare,FaHtml5,FaCss3Alt,FaFigma,
 
 
 
-let text1 = "Linkedin"
-let text2 = "GitHub"
+
 let text3 = "Gmail"
-
-function Up () {
-
-    window.scrollTo(100,0);
-}
 
 
 function copy() {
@@ -45,10 +39,10 @@ function copy() {
 
 
 function Home(){
-    let colors = ["green","blue"];
+  
     
     const [text] = useTypewriter({
-        words:['Desenvolvedor Back-End','Cientista De Dados'],
+        words:['Desenvolvedor Java Full-Stack','Cientista De Dados'],
         loop:{Infinity},
         
     });
@@ -103,12 +97,9 @@ function Home(){
                 <a onClick={copy}><FaMailBulk/> {text3} </a>
                 
                 </nav>
-                
+
                  </div>
-
-
-        <a className="Scroll" id="Scroll" href="#cont1"> ^ </a>
-               
+                 <div className="img-hide"><img src={img5}/></div>
             </section>
 
 
@@ -225,7 +216,7 @@ function Home(){
                         <h2> <PiCertificateBold/> <a href="https://cursos.alura.com.br/user/robertmarcos92/fullCertificate/2ef8206a06371a094ec06428718d95b8"> 
                           {text1} </a></h2>
 
-                          <h2> <FaCloudDownloadAlt/> <a href="https://cursos.alura.com.br/user/robertmarcos92/fullCertificate/2ef8206a06371a094ec06428718d95b8"> 
+                          <h2> <FaCloudDownloadAlt/> <a href="https://drive.google.com/file/d/10GTGEZjWgwTFmh5GOCnIYQXUt36k5QCR/view?usp=sharing" target="_blank"> 
                           {text2} </a></h2>
 
                 </div>
