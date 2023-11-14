@@ -1,6 +1,9 @@
 .menu{
-    
+
+    position: fixed;
+    top: 0%;
     background-color: #111111;
+    z-index: 10000;
     width:100% ;
     height: auto;
     display: flex;
@@ -8,10 +11,12 @@
     align-items: center;
     overflow: hidden;
     border-bottom: 1px solid green;
+    
 }
 
 
 #logo{
+    float: left;
     margin-right: auto;
     margin-left: 5%;
     text-decoration: none;
@@ -36,6 +41,7 @@
 .links{
     display: flex;
     gap: 20px;
+
     justify-content: center;
     margin-right: 30px;
     flex-wrap: wrap;
@@ -60,7 +66,8 @@
 
 @media (max-width: 700px) {
 
-   
+
+
 #logo{
     display: none;
     margin-right: auto;
@@ -71,6 +78,8 @@
     color:#00FF7F;
  
 }
+
+
 
 
 }

@@ -1,5 +1,7 @@
 
+import { Link } from 'react-router-dom';
 import './header.css'
+import { Helmet } from 'react-helmet';
 
 
 
@@ -12,7 +14,7 @@ function Auto(){
 
 function Auto2(){
     
-    window.scrollTo(0,800);
+    window.scrollTo(0,700);
 
     
 }
@@ -21,7 +23,7 @@ function Auto2(){
 
 function Auto3(){
     
-    window.scrollTo(0,1500);
+    window.scrollTo(0,1400);
 
     
 }
@@ -30,17 +32,17 @@ function Header(){
   
 return(
     <>
+    <Helmet>
+        <title> Portifolio - Robert Marcos</title>
+    </Helmet>
      <header className="menu">
 
-         <a id='logo' href='#'>&#9001;&#123;RM&#125;&#9002;</a>  
+        <Link to={'/'} id='logo'> &#9001;&#123;RM&#125;&#9002;</Link>  
 
          <nav className='links'>    
-        <a onClick={Auto}>Home</a>
-        <a onClick={Auto2}>Projetos</a>
-        
-      
-
-        <a onClick={Auto3}>Certificados</a>
+        <a href='#cont1'>Home</a>
+        <a href='#cont2'>Projetos</a>
+        <a href="#cont3">Tecnologias</a>
         </nav>   
             
       
