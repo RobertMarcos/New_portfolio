@@ -33,7 +33,7 @@ function Header(){
 return(
     <>
     <Helmet>
-        <title> Portifolio - Robert Marcos</title>
+        <title> Portfolio - Robert Marcos</title>
     </Helmet>
      <header className="menu">
 
