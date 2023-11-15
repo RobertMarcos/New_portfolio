@@ -42,13 +42,13 @@ function Home(){
   
     
     const [text] = useTypewriter({
-        words:['Desenvolvedor Java Full-Stack','Cientista De Dados'],
+        words:['Desenvolvedor Full-Stack','Cientista De Dados'],
         loop:{Infinity},
         
     });
 
     const [text1] = useTypewriter({
-        words:['Certificados - Alura'],
+        words:['Certificações - Alura'],
         loop:{Infinity},
         
     });
@@ -60,7 +60,7 @@ function Home(){
     });
 
     const observer = new IntersectionObserver((entries)=>{entries.forEach((entry)=>{
-        console.log(entry)
+       
         if(entry.isIntersecting){
             entry.target.classList.add('show')
         }else{  entry.target.classList.remove('show')
@@ -148,7 +148,7 @@ function Home(){
                 
                     <div class="item-txt">
                         <span><a href="https://github.com/RobertMarcos/Conversor_de_moeda " target="_blank">Conversor De Moedas &#8658;<a/></a></span>
-                        <p>Conversor de moedas simples, Feito em java durante no programa ONE.</p>
+                        <p>Conversor de moedas simples, Feito em java  durante o programa ONE, venha ver !!.</p>
                         
                     </div>
             </div>
@@ -163,7 +163,7 @@ function Home(){
                 
                     <div class="item-txt">
                         <span><a href="https://github.com/RobertMarcos/battle-of-Robots" target="_black">Batalha de Robos &#8658; </a></span>
-                        <p>Quem ira vencer essa incrivel disputa ? O nosso heroi ou o seu arqinimigo </p>
+                        <p>Quem ira vencer essa incrivel disputa ? O nosso herói ou o seu inimigo </p>
                        
                     </div>
             </div>

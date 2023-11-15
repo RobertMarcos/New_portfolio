@@ -2,6 +2,7 @@ import { Typewriter,useTypewriter,Cursor } from 'react-simple-typewriter';
 import './entrada.css'
 import Home from '../home/home';
 import { Route,BrowserRouter, Routes, Link} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -38,6 +39,10 @@ function Entrar(){
 
     return(
     <>
+     <Helmet>
+        <title> Portfolio - Robert Marcos</title>
+    </Helmet>
+    
     <section className='cos1'>
 
     <div className='texto'>

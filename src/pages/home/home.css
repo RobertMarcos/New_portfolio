@@ -238,11 +238,8 @@ p > strong{
    span > a {
     color: aqua;
     font-size: 20px;
-    text-decoration: underline;
-    text-decoration-color: springgreen;
-    
-    
-      
+    text-decoration:none;
+    font-weight: bolder;
        
    }
  
