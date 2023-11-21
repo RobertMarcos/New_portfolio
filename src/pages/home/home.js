@@ -83,7 +83,7 @@ function Home(){
                 <h2 className="t1">ROBERT: {text}</h2>
                <div className="p1"> 
                     <p>  Apaixonado pela tecnologia e inovação, participei do <strong>programa ONE</strong> e adquiri habilidades e 
-                conhecimentos em desenvolvimento com <strong>java e banco de dados</strong>, comecei  o  curso de 
+                conhecimentos em desenvolvimento com <strong>java,html,css, javascript e banco de dados</strong>, comecei  o  curso de 
                 Introdução a banco de dados no SENAI para poder completar a minha formação. Estou determinado 
                 a contribuir e crescer no 
                 campo da tecnologia, busco oportunidades que me permitam aplicar a minha paixão e habilidades.
@@ -216,7 +216,7 @@ function Home(){
                         <h2> <PiCertificateBold/> <a href="https://cursos.alura.com.br/user/robertmarcos92/fullCertificate/2ef8206a06371a094ec06428718d95b8"> 
                           {text1} </a></h2>
 
-                          <h2> <FaCloudDownloadAlt/> <a href="https://drive.google.com/file/d/10GTGEZjWgwTFmh5GOCnIYQXUt36k5QCR/view?usp=sharing" target="_blank"> 
+                          <h2> <FaCloudDownloadAlt/> <a href="https://drive.google.com/file/d/1VSaI1OibPUGQ4nynPvylRyUmnwGwnY2I/view?usp=sharing" target="_blank"> 
                           {text2} </a></h2>
 
                 </div>
